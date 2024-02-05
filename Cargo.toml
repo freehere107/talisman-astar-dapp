@@ -1,5 +1,5 @@
 [package]
-name = "talisman_astar_dapp"
+name = "talisman_dapp"
 version = "1.0.0"
 authors = ["Tien Nguyen Khac <tien@talisman.xyz>"]
 edition = "2021"

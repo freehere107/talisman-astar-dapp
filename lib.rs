@@ -1,11 +1,11 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
 #[ink::contract]
-mod talisman_astar_dapp {
+mod talisman_dapp {
     #[ink(storage)]
-    pub struct TalismanAstarDapp {}
+    pub struct TalismanDapp {}
 
-    impl TalismanAstarDapp {
+    impl TalismanDapp {
         #[ink(constructor)]
         pub fn new() -> Self {
             Self {}
